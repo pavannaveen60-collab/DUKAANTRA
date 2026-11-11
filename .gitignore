@@ -1,0 +1,35 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Trained machine-learning artifacts
+backend/ml/artifacts/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage/
+
+# macOS
+.DS_Store
+# Generated TypeScript files
+*.tsbuildinfo
+
+# Old standalone frontend repository
+/frontend-bootstrap/
